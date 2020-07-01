@@ -1,0 +1,11 @@
+.error {
+    display: block;
+    color: red;
+}
+
+.ui.icon.button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+}
+
