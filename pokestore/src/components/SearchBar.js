@@ -17,7 +17,7 @@ export default function SearchBar(props) {
                 
                 repositoriesName.push(repositories.name);
 
-                localStorage.setItem('repositories.Name', JSON.stringify(repositoriesName));
+                localStorage.setItem('repositoriesName', JSON.stringify(repositoriesName));
 
                 setErro(false);
             })
