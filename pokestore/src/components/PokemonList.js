@@ -1,8 +1,12 @@
 import React from 'react';
+import PokemonItem from './PokemonItem';
 
-const PokemonList = ({ pokemon, pokemonSelect }) => {
+const PokemonList = ({ pokemon, onPokemonSelect }) => {
     const renderList = pokemon.map(poke => {
-        return <PokemonItem/>;
+        return <PokemonItem
+                    key={pokemon.id}
+                    poke = {poke}
+                />;
     });
 
     return <div className="ui relaxed divided list"> {renderList} </div>;
