@@ -1,10 +1,10 @@
 import React from 'react';
-
+import SearchBar from './SearchBar'
 
 function App() {
   return (
-    <div>
-      <h1> Pokestore </h1>
+    <div className="ui container">
+      <SearchBar />
     </div>
   );
 }
