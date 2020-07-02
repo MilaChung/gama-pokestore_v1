@@ -1,16 +1,16 @@
 import React from 'react';
 
-const PokemonItem = ({ pokemon, onPokemonSelect }) => {
+const PokemonItem = ({ repositories }) => {
     return (
         <div className="poke-item item">
             <img
                 className="ui image"
-                alt={pokemon.name}
-                src={pokemon.sprites.front_default}
+                alt={repositories.data.name}
+                src={repositories.data.sprites.front_default}
             />
 
             <div className="content">
-                <div className="header"> {pokemon.name} </div>
+                <div className="header"> {repositories.name} </div>
             </div>
         </div>
     );
