@@ -13,9 +13,10 @@ export default function SearchBar(props) {
                 const repositories = response.data;
                 const repositoriesName = [];
 
-                console.log(response.data);
+               // console.log(response.data.sprites.front_default);
                 
                 repositoriesName.push(repositories.name);
+                //console.log(repositoriesName);
 
                 localStorage.setItem('repositoriesName', JSON.stringify(repositoriesName));
 
