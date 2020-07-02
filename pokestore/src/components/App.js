@@ -1,7 +1,9 @@
 import React from 'react';
 import SearchBar from './SearchBar'
+import PokemonList from './PokemonList';
 
-function App() {
+export default function App () {
+
   return (
     <div className="ui container">
       <SearchBar />
@@ -15,8 +17,8 @@ function App() {
           </div>
 
           <div className="five wide column">
-          <h1>Pokemon List</h1>
-          {/* <PokemonList /> */}
+            <h1>Pokemon List</h1>
+            <PokemonList/>
           </div>
           
         </div>
@@ -24,5 +26,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
