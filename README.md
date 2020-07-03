@@ -1,3 +1,3 @@
 # gama-pokestore
- Pokestore using pokeapi
+ Pokestore using pokeapi and React
 [in construction]
